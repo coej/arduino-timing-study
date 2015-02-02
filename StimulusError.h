@@ -1,11 +1,13 @@
 
-//char = -128 to 127 I think
+//char = -128 to 127
 
 //these were generated with SD = 25 (mean = 0), normally distributed
 // raw values were calculated as deviations from 500ms for each interval
-// (final deviations below include compensation to bring each actual 
+
+// guaranteed to be random. http://xkcd.com/221/
+
 const char devErrors800Part1[ ] = {
-0,	// index 0, calc'd with uniform dist -8 to 8
+0,	// index 0, calc'd with uniform dist -80 to 80
 0,	// index 1
 40,	// index 2
 -40,	// index 3
@@ -179,7 +181,7 @@ const char devErrors800Part1[ ] = {
 };
 
 const char devErrors800Part2[ ] = {
-0,	// index 0, calc'd with uniform dist -8 to 8
+0,	// index 0, calc'd with uniform dist -80 to 80
 0,	// index 1
 30,	// index 2
 -30,	// index 3
@@ -353,7 +355,7 @@ const char devErrors800Part2[ ] = {
 };
 
 const char devErrors800Part3[ ] = {
-0,	// index 0, calc'd with uniform dist -8 to 8
+0,	// index 0, calc'd with uniform dist -80 to 80
 0,	// index 1
 -60,	// index 2
 60,	// index 3
@@ -529,7 +531,7 @@ const char devErrors800Part3[ ] = {
 
 
 const char devErrors500Part1[ ] = {
-0,	// index 0, calc'd with uniform dist -5 to 5
+0,	// index 0, calc'd with uniform dist -50 to 50
 0,	// index 1
 0,	// index 2
 -10,	// index 3
@@ -704,7 +706,7 @@ const char devErrors500Part1[ ] = {
 
 
 const char devErrors500Part2[ ] = {
-0,	// index 0, calc'd with uniform dist -5 to 5
+0,	// index 0, calc'd with uniform dist -50 to 50
 0,	// index 1
 30,	// index 2
 -50,	// index 3
@@ -878,7 +880,7 @@ const char devErrors500Part2[ ] = {
 };
 
 const char devErrors500Part3[ ] = {
-0,	// index 0, calc'd with uniform dist -5 to 5
+0,	// index 0, calc'd with uniform dist -50 to 50
 0,	// index 1
 10,	// index 2
 -20,	// index 3
