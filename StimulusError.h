@@ -1,8 +1,8 @@
 
 //char = -128 to 127
 
-//these were generated with SD = 25 (mean = 0), normally distributed
-// raw values were calculated as deviations from 500ms for each interval
+// these were generated from a random uniform distribution.
+// Used to produce deviations from equal-inteval stimulus timing for some tasks.
 
 // guaranteed to be random. http://xkcd.com/221/
 
